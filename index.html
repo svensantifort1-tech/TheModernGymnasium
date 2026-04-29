@@ -88,7 +88,7 @@
             width: 100px;
         }
 
-        /* Animations - Aangepast om de afbeelding iets uit te zoomen */
+        /* Animations */
         @keyframes slowPan {
             0% { transform: scale(1.0) translateX(0); }
             50% { transform: scale(1.0) translateX(-2%); }
@@ -159,10 +159,10 @@
                 <div class="absolute -inset-4 bg-gradient-to-tr from-transparent via-gold/15 to-transparent blur-md arch-frame animate-pulse"></div>
                 
                 <!-- Arch Window Container -->
-                <div class="relative w-full max-w-[400px] aspect-[2/3] bg-[#0A0A0A] arch-frame border-t-[16px] border-x-[16px] border-b-8 border-[#1C1714] overflow-hidden flex items-end justify-center group z-10">
+                <!-- AANGEPAST: max-w verhoogd naar 450px en aspect ratio naar 3/4 om meer van de zijkanten te onthullen (uitzoomen) -->
+                <div class="relative w-full max-w-[450px] aspect-[3/4] bg-[#0A0A0A] arch-frame border-t-[16px] border-x-[16px] border-b-8 border-[#1C1714] overflow-hidden flex items-end justify-center group z-10">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-obsidian/40 to-obsidian z-10 pointer-events-none"></div>
                     
-                    <!-- AANGEPAST: Object-position aangepast naar 65% om de man meer naar links te verplaatsen -->
                     <img src="d03ed73f-64c8-4fc8-8829-a5498df449a9.jpg" alt="Classical Greek Torso" class="absolute inset-0 w-full h-full object-cover object-[65%_20%] contrast-110 opacity-100 group-hover:scale-105 transition-transform duration-1000 animate-pan">
                     
                     <!-- High-Converting CTA inside the arch -->
@@ -229,8 +229,8 @@
 
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Pillar 1: Forge -->
-                <div class="fade-in-section group relative h-[500px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
-                    <!-- Perfectly Centered Wrestling Image (Zoomed Out) -->
+                <!-- AANGEPAST: h-[500px] -> h-[380px] voor alle triad kaarten om ze uit te zoomen -->
+                <div class="fade-in-section group relative h-[380px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
                     <img src="39d38322-9b4e-491e-9048-eb41540d75ec.jpg" alt="Greek Men Wrestling" class="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/30 to-transparent pointer-events-none"></div>
                     
@@ -247,8 +247,7 @@
                 </div>
 
                 <!-- Pillar 2: Library -->
-                <div class="fade-in-section delay-100 group relative h-[500px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
-                    <!-- Perfectly Centered Reading Image (Zoomed Out) -->
+                <div class="fade-in-section delay-100 group relative h-[380px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
                     <img src="566767ea-ea3b-436b-8888-c261cdc71c54.jpg" alt="Greek Reading in Athens" class="absolute inset-0 w-full h-full object-cover object-[center_35%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/30 to-transparent pointer-events-none"></div>
                     
@@ -265,8 +264,7 @@
                 </div>
 
                 <!-- Pillar 3: Citadel -->
-                <div class="fade-in-section delay-200 group relative h-[500px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
-                    <!-- Perfectly Centered Citadel Image (Zoomed Out) -->
+                <div class="fade-in-section delay-200 group relative h-[380px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
                     <img src="af4e4bfa-2c12-476c-ac9e-b366df984cbf.jpg" alt="The Citadel Philosophy" class="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-transparent pointer-events-none"></div>
                     
