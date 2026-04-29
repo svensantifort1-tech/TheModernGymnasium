@@ -90,9 +90,9 @@
 
         /* Animations */
         @keyframes slowPan {
-            0% { transform: scale(1.1) translateX(0); }
-            50% { transform: scale(1.1) translateX(-2%); }
-            100% { transform: scale(1.1) translateX(0); }
+            0% { transform: scale(1.05) translateX(0); }
+            50% { transform: scale(1.05) translateX(-2%); }
+            100% { transform: scale(1.05) translateX(0); }
         }
         .animate-pan { animation: slowPan 30s linear infinite; }
         
@@ -113,7 +113,7 @@
     <div id="stickyNav" class="fixed top-0 left-0 right-0 z-50 bg-charcoal/95 backdrop-blur-md border-b border-gold/20 py-4 px-6 flex justify-between items-center transform -translate-y-full transition-transform duration-500">
         <span class="font-serif text-xl font-bold tracking-widest text-white">THE INITIATION</span>
         <button onclick="openModal()" class="bg-terracotta hover:bg-terracottaHover text-white px-6 py-2 transition-all duration-300 font-bold tracking-wider text-sm flex items-center gap-2 group border border-transparent hover:border-gold shadow-lg shadow-terracotta/20">
-            SECURE YOUR ACCESS 
+            SECURE YOUR ARSENAL 
             <svg class="w-4 h-4 group-hover:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
             <svg class="w-4 h-4 hidden group-hover:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </button>
@@ -128,28 +128,28 @@
             
             <!-- Left: Typography Focus -->
             <div class="fade-in-section is-visible flex-1 text-center md:text-left pt-10 md:pt-0">
-                <div class="inline-block bg-marble text-obsidian px-4 py-1.5 text-[10px] font-bold tracking-[0.3em] uppercase mb-8 shadow-md">
+                <div class="inline-block bg-terracotta text-white px-4 py-1.5 text-[10px] font-bold tracking-[0.3em] uppercase mb-8 shadow-md">
                     Warning: The Modern Crisis
                 </div>
-                <p class="text-gold tracking-[0.2em] uppercase text-xs font-semibold mb-2">Reclaim Your Potential</p>
-                <h1 class="text-7xl md:text-8xl lg:text-9xl font-bold text-marble mb-0 leading-none uppercase font-serif tracking-tight drop-shadow-xl">
-                    ARETE
+                <p class="text-gold tracking-[0.2em] uppercase text-xs font-semibold mb-2">Reclaim Your Sovereign Potential</p>
+                <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold text-marble mb-0 leading-none uppercase font-serif tracking-tight drop-shadow-xl">
+                    REJECT
                 </h1>
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-400 mb-8 leading-tight uppercase font-serif tracking-widest drop-shadow-lg">
-                    THE CITADEL
+                    WEAKNESS
                 </h2>
                 
                 <div class="classical-divider mb-8 mx-auto md:mx-0"></div>
                 
                 <p class="text-gray-500 tracking-[0.2em] uppercase text-xs font-semibold mb-2">The Architecture of Discipline</p>
-                <p class="text-2xl md:text-3xl text-white mb-10 font-normal tracking-wide leading-snug">
-                    We live in an era meticulously engineered to make you weak.<br/>Forge the antidote.
+                <p class="text-xl md:text-2xl text-white mb-10 font-normal tracking-wide leading-snug">
+                    Modernity is a factory for domestication. You are being engineered to be soft, distracted, and compliant.<br/><span class="text-gold font-semibold">It is time to forge the antidote.</span>
                 </p>
 
                 <div class="flex flex-wrap gap-4 justify-center md:justify-start mt-8">
-                    <span class="border border-bronze/30 px-4 py-1 text-xs tracking-widest uppercase text-bronze bg-charcoal shadow-md hover:bg-terracotta hover:text-white transition-colors duration-300 cursor-default">Stoic</span>
-                    <span class="border border-bronze/30 px-4 py-1 text-xs tracking-widest uppercase text-bronze bg-charcoal shadow-md hover:bg-terracotta hover:text-white transition-colors duration-300 cursor-default">Relentless</span>
-                    <span class="border border-bronze/30 px-4 py-1 text-xs tracking-widest uppercase text-bronze bg-charcoal shadow-md hover:bg-terracotta hover:text-white transition-colors duration-300 cursor-default">Classical</span>
+                    <span class="border border-bronze/30 px-4 py-1 text-xs tracking-widest uppercase text-bronze bg-charcoal shadow-md">Stoic</span>
+                    <span class="border border-bronze/30 px-4 py-1 text-xs tracking-widest uppercase text-bronze bg-charcoal shadow-md">Relentless</span>
+                    <span class="border border-bronze/30 px-4 py-1 text-xs tracking-widest uppercase text-bronze bg-charcoal shadow-md">Dangerous</span>
                 </div>
             </div>
 
@@ -162,8 +162,8 @@
                 <div class="relative w-full max-w-[400px] aspect-[2/3] bg-[#0A0A0A] arch-frame border-t-[16px] border-x-[16px] border-b-8 border-[#1C1714] overflow-hidden flex items-end justify-center group z-10">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-obsidian/40 to-obsidian z-10 pointer-events-none"></div>
                     
-                    <!-- Centered Classical Greek Male Torso Image -->
-                    <img src="d03ed73f-64c8-4fc8-8829-a5498df449a9.jpg" alt="Classical Greek Torso" class="absolute inset-0 w-full h-full object-cover object-[75%_30%] contrast-110 opacity-100 group-hover:scale-110 transition-transform duration-1000 animate-pan">
+                    <!-- Centered Classical Greek Male Torso Image (Zoomed out & Centered) -->
+                    <img src="d03ed73f-64c8-4fc8-8829-a5498df449a9.jpg" alt="Classical Greek Torso" class="absolute inset-0 w-full h-full object-cover object-[center_20%] contrast-110 opacity-100 group-hover:scale-105 transition-transform duration-1000 animate-pan">
                     
                     <!-- High-Converting CTA inside the arch -->
                     <button onclick="openModal()" class="relative z-20 w-[85%] mb-8 px-6 py-4 bg-terracotta text-white font-bold tracking-[0.2em] uppercase text-sm shadow-[0_0_30px_rgba(154,59,33,0.4)] hover:shadow-[0_0_50px_rgba(154,59,33,0.6)] hover:bg-terracottaHover transition-all flex justify-center items-center gap-2 border border-gold/30">
@@ -188,8 +188,8 @@
     <section class="py-24 px-6 bg-obsidian relative border-t border-charcoal">
         <div class="max-w-4xl mx-auto">
             <div class="fade-in-section text-center">
-                <h2 class="text-3xl md:text-5xl font-serif text-white mb-6">The Collapse of Modernity</h2>
-                <p class="text-gray-400 text-lg mb-12 max-w-2xl mx-auto">The default path of modern life leads inevitably to three catastrophic outcomes. If you do not actively resist, you are already falling behind.</p>
+                <h2 class="text-3xl md:text-5xl font-serif text-white mb-6">The Extinction of the Capable Man</h2>
+                <p class="text-gray-400 text-lg mb-12 max-w-2xl mx-auto">The default path of modern life guarantees failure. If you do not actively fight the current, you are already drowning. Look around you—the collapse is happening in three phases.</p>
             </div>
             
             <div class="space-y-8">
@@ -197,21 +197,21 @@
                     <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-3">
                         <span class="text-gold font-serif text-2xl">01</span> Endocrine & Physical Atrophy
                     </h3>
-                    <p class="text-gray-400 leading-relaxed">Sedentary lifestyles and heavily processed diets have created a generation plagued by metabolic disease and catastrophically low testosterone. The average man is physically regressing.</p>
+                    <p class="text-gray-400 leading-relaxed">Your biology is under siege. Sedentary lifestyles, microplastics, and processed sludge have decimated modern testosterone levels. The average man today possesses a fraction of the raw, androgenic drive of his ancestors. You are physically regressing.</p>
                 </div>
 
                 <div class="fade-in-section delay-100 bg-charcoal p-8 border-l-4 border-terracotta hover:bg-[#251E1A] hover:translate-x-2 transition-all duration-300 shadow-lg cursor-default">
                     <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-3">
-                        <span class="text-gold font-serif text-2xl">02</span> Intellectual Lethargy
+                        <span class="text-gold font-serif text-2xl">02</span> The Hijacking of Intellect
                     </h3>
-                    <p class="text-gray-400 leading-relaxed">The dopamine economy has fractured your attention span. Deep thought is outsourced to search engines. You consume vast amounts of information but possess zero actual knowledge.</p>
+                    <p class="text-gray-400 leading-relaxed">The dopamine economy has shattered your attention span. You have outsourced deep, critical thought to algorithms designed to keep you scrolling. You consume endless data, but possess absolutely zero actionable knowledge.</p>
                 </div>
 
                 <div class="fade-in-section delay-200 bg-charcoal p-8 border-l-4 border-terracotta hover:bg-[#251E1A] hover:translate-x-2 transition-all duration-300 shadow-lg cursor-default">
                     <h3 class="text-xl font-bold text-white mb-3 flex items-center gap-3">
-                        <span class="text-gold font-serif text-2xl">03</span> Moral Ambiguity
+                        <span class="text-gold font-serif text-2xl">03</span> Moral Ambiguity & Cowardice
                     </h3>
-                    <p class="text-gray-400 leading-relaxed">In the absence of physical struggle and intellectual rigor, character softens. Duty, honor, and discipline are forgotten relics. You lack a foundational philosophy to anchor you in chaos.</p>
+                    <p class="text-gray-400 leading-relaxed">In the absence of physical struggle and intellectual rigor, your character softens. Duty, honor, and extreme ownership have been replaced by victimhood and excuses. You lack a philosophical anchor to hold you steady in chaos.</p>
                 </div>
             </div>
         </div>
@@ -221,17 +221,17 @@
     <section class="py-32 px-6 bg-charcoal relative border-t border-[#2A231E]">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-20 fade-in-section flex flex-col items-center">
-                <h2 class="text-sm tracking-[0.3em] text-gold mb-4 uppercase font-bold">The Solution</h2>
+                <h2 class="text-sm tracking-[0.3em] text-gold mb-4 uppercase font-bold">The Blueprint for Rebuilding</h2>
                 <h3 class="text-4xl md:text-6xl font-serif text-white mb-6">The Triad of Mastery</h3>
                 <div class="classical-divider mb-6"></div>
-                <p class="text-gray-400 max-w-2xl mx-auto text-lg">To achieve Arete (excellence), we cultivate three uncompromising pillars. This is not self-help. This is an architectural reconstruction of the self.</p>
+                <p class="text-gray-400 max-w-2xl mx-auto text-lg">To achieve true Arete (excellence), we cultivate three uncompromising pillars. This is not casual self-help. This is a brutal, architectural reconstruction of your identity.</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Pillar 1: Forge -->
                 <div class="fade-in-section group relative h-[500px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
-                    <!-- Perfectly Centered Wrestling Image -->
-                    <img src="39d38322-9b4e-491e-9048-eb41540d75ec.jpg" alt="Greek Men Wrestling" class="absolute inset-0 w-full h-full object-cover object-[75%_30%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <!-- Perfectly Centered Wrestling Image (Zoomed Out) -->
+                    <img src="39d38322-9b4e-491e-9048-eb41540d75ec.jpg" alt="Greek Men Wrestling" class="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/30 to-transparent pointer-events-none"></div>
                     
                     <div class="absolute top-5 left-5 bg-marble text-obsidian text-[10px] font-bold px-3 py-1 tracking-widest uppercase shadow-md z-10">The Pankration</div>
@@ -241,15 +241,15 @@
                         <h4 class="text-sm tracking-[0.2em] text-gold mb-2 drop-shadow-md font-semibold">Physical Vigor</h4>
                         <h3 class="text-3xl font-serif text-white mb-4 border-b border-bronze/30 pb-4 drop-shadow-md">The Forge</h3>
                         <p class="text-gray-200 h-0 opacity-0 group-hover:h-auto group-hover:opacity-100 transition-all duration-500 overflow-hidden drop-shadow-lg font-medium">
-                            Build a brutally strong, hormonally optimized, and functional physical vessel. Master your endocrine engine before it fails you.
+                            Build a brutally strong, hormonally optimized, and lethal physical vessel. Master your endocrine engine before it fails you completely.
                         </p>
                     </div>
                 </div>
 
                 <!-- Pillar 2: Library -->
                 <div class="fade-in-section delay-100 group relative h-[500px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
-                    <!-- Perfectly Centered Reading Image -->
-                    <img src="566767ea-ea3b-436b-8888-c261cdc71c54.jpg" alt="Greek Reading in Athens" class="absolute inset-0 w-full h-full object-cover object-[75%_30%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <!-- Perfectly Centered Reading Image (Zoomed Out) -->
+                    <img src="566767ea-ea3b-436b-8888-c261cdc71c54.jpg" alt="Greek Reading in Athens" class="absolute inset-0 w-full h-full object-cover object-[center_35%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/30 to-transparent pointer-events-none"></div>
                     
                     <div class="absolute top-5 left-5 bg-marble text-obsidian text-[10px] font-bold px-3 py-1 tracking-widest uppercase shadow-md z-10">The Academy</div>
@@ -259,15 +259,15 @@
                         <h4 class="text-sm tracking-[0.2em] text-gold mb-2 drop-shadow-md font-semibold">Intellectual Clarity</h4>
                         <h3 class="text-3xl font-serif text-white mb-4 border-b border-bronze/30 pb-4 drop-shadow-md">The Library</h3>
                         <p class="text-gray-200 h-0 opacity-0 group-hover:h-auto group-hover:opacity-100 transition-all duration-500 overflow-hidden drop-shadow-lg font-medium">
-                            Architect deep focus, eradicate brain fog, and master logic. Execute the attention diet and reclaim your cognitive sovereignty.
+                            Architect deep focus, eradicate brain fog, and master cold logic. Execute a strict attention diet and reclaim your cognitive sovereignty.
                         </p>
                     </div>
                 </div>
 
                 <!-- Pillar 3: Citadel -->
                 <div class="fade-in-section delay-200 group relative h-[500px] overflow-hidden bg-obsidian cursor-pointer stone-panel transition-all duration-500 hover:-translate-y-2" onclick="openModal()">
-                    <!-- Perfectly Centered Citadel Image -->
-                    <img src="af4e4bfa-2c12-476c-ac9e-b366df984cbf.jpg" alt="The Citadel Philosophy" class="absolute inset-0 w-full h-full object-cover object-[75%_30%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
+                    <!-- Perfectly Centered Citadel Image (Zoomed Out) -->
+                    <img src="af4e4bfa-2c12-476c-ac9e-b366df984cbf.jpg" alt="The Citadel Philosophy" class="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-transparent pointer-events-none"></div>
                     
                     <div class="absolute top-5 left-5 bg-marble text-obsidian text-[10px] font-bold px-3 py-1 tracking-widest uppercase shadow-md z-10">The Citadel</div>
@@ -277,7 +277,7 @@
                         <h4 class="text-sm tracking-[0.2em] text-gold mb-2 drop-shadow-md font-semibold">Moral Fortitude</h4>
                         <h3 class="text-3xl font-serif text-white mb-4 border-b border-bronze/30 pb-4 drop-shadow-md">The Citadel</h3>
                         <p class="text-gray-200 h-0 opacity-0 group-hover:h-auto group-hover:opacity-100 transition-all duration-500 overflow-hidden drop-shadow-lg font-medium">
-                            Forge an unbreakable character through applied Stoicism, shadow integration, and extreme ownership. Become the anchor in chaos.
+                            Forge an unbreakable character through applied Stoicism, dark shadow integration, and extreme ownership. Become the immovable anchor in chaos.
                         </p>
                     </div>
                 </div>
@@ -290,58 +290,58 @@
         <div class="max-w-5xl mx-auto">
             <div class="fade-in-section flex flex-col md:flex-row items-center justify-between gap-12">
                 <div class="flex-1">
-                    <h2 class="text-4xl font-serif text-white mb-6">The Digital Arsenal</h2>
+                    <h2 class="text-4xl font-serif text-white mb-6">The Elite Digital Arsenal</h2>
                     <p class="text-gray-400 mb-8 leading-relaxed text-lg">
-                        This is not a passive video course. Upon entry, you unlock immediate access to the Syllabus and your personal storage node. It is a highly structured, digitally curated environment strictly designed to forge discipline.
+                        This is not a passive video course for the masses. Upon entry, you unlock immediate access to the Syllabus and your personal storage node. It is a highly structured, digitally curated environment strictly designed to forge elite discipline.
                     </p>
                     <ul class="space-y-5">
                         <li class="flex items-start gap-4 group">
                             <svg class="w-7 h-7 text-bronze shrink-0 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <div>
                                 <span class="text-white font-bold block mb-1">Complete 4-Course Curriculum</span>
-                                <span class="text-gray-400 text-sm">Master your biology, intellect, and moral fortitude.</span>
+                                <span class="text-gray-400 text-sm">Actionable frameworks to master your biology, intellect, and moral fortitude.</span>
                             </div>
                         </li>
                         <li class="flex items-start gap-4 group">
                             <svg class="w-7 h-7 text-bronze shrink-0 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <div>
                                 <span class="text-white font-bold block mb-1">The Habit Tracking Vault</span>
-                                <span class="text-gray-400 text-sm">Quantify your discipline and measure your daily execution.</span>
+                                <span class="text-gray-400 text-sm">Quantify your discipline and measure your daily execution with ruthless precision.</span>
                             </div>
                         </li>
                         <li class="flex items-start gap-4 group">
                             <svg class="w-7 h-7 text-bronze shrink-0 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <div>
                                 <span class="text-white font-bold block mb-1">The Proving Grounds Access</span>
-                                <span class="text-gray-400 text-sm">Surround yourself with a network of men executing at the highest level.</span>
+                                <span class="text-gray-400 text-sm">Surround yourself with an exclusive network of men executing at the highest level.</span>
                             </div>
                         </li>
                     </ul>
                     
-                    <button onclick="openModal()" class="mt-10 inline-flex items-center gap-2 bg-charcoal border border-gold/50 text-gold px-8 py-3 font-bold tracking-widest uppercase hover:bg-gold hover:text-obsidian transition-colors">
-                        Claim Your Arsenal <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    <button onclick="openModal()" class="mt-10 inline-flex items-center gap-2 bg-charcoal border border-gold/50 text-gold px-8 py-3 font-bold tracking-widest uppercase hover:bg-gold hover:text-obsidian transition-colors shadow-lg">
+                        CLAIM YOUR ARSENAL ACCESS <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </button>
                 </div>
                 
                 <!-- Arsenal UI Mockup -->
                 <div class="flex-1 relative w-full mt-10 md:mt-0">
                     <div class="absolute inset-0 bg-bronze blur-[100px] opacity-20 animate-pulse"></div>
-                    <div class="relative bg-charcoal p-1 border border-[#333] shadow-2xl transition-transform hover:-translate-y-2 duration-500">
+                    <div class="relative bg-charcoal p-1 border border-[#333] shadow-2xl transition-transform hover:-translate-y-2 duration-500 cursor-pointer" onclick="openModal()">
                         <div class="bg-obsidian p-6 border border-[#222]">
                             <div class="flex items-center justify-between border-b border-bronze/30 pb-4 mb-4">
-                                <span class="text-gold font-serif tracking-widest text-sm">SYLLABUS VAULT</span>
-                                <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                <span class="text-gold font-serif tracking-widest text-sm">SYLLABUS VAULT (LOCKED)</span>
+                                <svg class="w-4 h-4 text-terracotta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                             </div>
                             <div class="space-y-3">
-                                <div class="h-12 bg-charcoal flex items-center px-4 gap-4 opacity-70 hover:opacity-100 hover:bg-[#251E1A] transition-all cursor-pointer group" onclick="openModal()">
+                                <div class="h-12 bg-charcoal flex items-center px-4 gap-4 opacity-70 hover:opacity-100 hover:bg-[#251E1A] transition-all group">
                                     <svg class="w-4 h-4 text-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                                     <span class="text-sm tracking-wide text-marble group-hover:text-gold transition-colors font-bold">MODULE 1: THE ETHOS</span>
                                 </div>
-                                <div class="h-12 bg-charcoal flex items-center px-4 gap-4 opacity-70 hover:opacity-100 hover:bg-[#251E1A] transition-all cursor-pointer group" onclick="openModal()">
+                                <div class="h-12 bg-charcoal flex items-center px-4 gap-4 opacity-70 hover:opacity-100 hover:bg-[#251E1A] transition-all group">
                                     <svg class="w-4 h-4 text-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                                     <span class="text-sm tracking-wide text-marble group-hover:text-gold transition-colors font-bold">MODULE 2: PHYSICAL VIGOR</span>
                                 </div>
-                                <div class="h-12 bg-charcoal flex items-center px-4 gap-4 opacity-70 hover:opacity-100 hover:bg-[#251E1A] transition-all cursor-pointer group" onclick="openModal()">
+                                <div class="h-12 bg-charcoal flex items-center px-4 gap-4 opacity-70 hover:opacity-100 hover:bg-[#251E1A] transition-all group">
                                     <svg class="w-4 h-4 text-gold group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                                     <span class="text-sm tracking-wide text-marble group-hover:text-gold transition-colors font-bold">MODULE 3: STOICISM</span>
                                 </div>
@@ -360,20 +360,20 @@
             <div class="fade-in-section">
                 <h2 class="text-5xl md:text-7xl font-serif text-white mb-8">Accept The Burden</h2>
                 <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-                    You know your current coordinates. You know where you are deficient. The path to Arete is laid out before you. <strong class="text-gold font-bold">You can remain exactly as you are, or you can forge yourself into something unbreakable.</strong>
+                    You know your current coordinates. You know exactly where you are deficient. The path to true Arete is laid out before you. <br/><br/><strong class="text-gold font-bold text-2xl">You can remain exactly as you are, or you can forge yourself into something unbreakable. Decide now.</strong>
                 </p>
                 
                 <div class="flex flex-col items-center gap-6">
                     <button onclick="openModal()" class="group relative px-14 py-6 bg-terracotta text-white font-bold tracking-[0.2em] uppercase text-xl overflow-hidden shadow-[0_0_40px_rgba(154,59,33,0.4)] hover:shadow-[0_0_70px_rgba(154,59,33,0.7)] transition-shadow duration-500 border border-gold/40">
                         <div class="absolute inset-0 bg-gold/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out skew-x-12"></div>
                         <span class="relative z-10 flex items-center gap-3">
-                            UNLOCK THE INITIATION 
+                            SECURE YOUR SPOT IN THE INITIATION 
                             <svg class="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                         </span>
                     </button>
-                    <p class="text-sm text-gray-400 tracking-wide flex items-center gap-2 font-medium">
+                    <p class="text-sm text-gray-400 tracking-wide flex items-center gap-2 font-medium mt-2">
                         <svg class="w-4 h-4 text-bronze" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                        Secure Immediate Access to the Digital Syllabus
+                        Instant, Lifetime Access to the Digital Syllabus
                     </p>
                 </div>
             </div>
@@ -410,12 +410,12 @@
                     
                     <div class="pt-4 border-t border-[#332B25] mt-6">
                         <div class="flex justify-between text-white mb-6">
-                            <span class="font-bold">The Initiation Course</span>
-                            <span class="font-serif text-gold text-lg">$297</span>
+                            <span class="font-bold uppercase tracking-wider text-sm">The Initiation Access</span>
+                            <span class="font-serif text-gold text-xl font-bold">$297</span>
                         </div>
                         <button type="submit" class="w-full bg-terracotta hover:bg-terracottaHover text-white font-bold tracking-widest uppercase py-4 transition-colors flex items-center justify-center gap-2 border border-gold/20 shadow-[0_0_15px_rgba(154,59,33,0.3)]">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                            Secure Immediate Access
+                            AUTHORIZE PAYMENT
                         </button>
                     </div>
                 </div>
